@@ -127,7 +127,7 @@ public class MyGdxGame extends ApplicationAdapter {
 			}
 		}
 		if (Gdx.input.isKeyPressed(Input.Keys.LEFT)) {
-			xv = MAX_VELOCITY * -2;
+			xv = MAX_VELOCITY *-1;
 			faceLeft = true;
 			faceUp = false;
 			faceDown = false;
